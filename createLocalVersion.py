@@ -5,8 +5,8 @@ import ctypes
 import itertools
 import string
 import platform
-sourceDirectoryPath = "C:\\Data\\XL vba prj\\"  # Enter directory name for source, make sure to add a backslash at the end
-exelfilename = "Demographic compare macro.xlsm"
+sourceDirectoryPath = ""  # Enter directory name for source, make sure to add a backslash at the end
+exelfilename = ""
 def get_available_drives():
     if 'Windows' not in platform.system():
         return []
