@@ -6,8 +6,8 @@ import itertools
 import string
 import platform
 # Enter directory name for source, make sure to add a double backslash at the end
-sourceDirectoryPath = "C:\\PathToSource"
-exelfilename = "filename.extension"
+sourceDirectoryPath = "C:\\PathToSource\\"
+fileNameToOpen = "filename.extension"
 maindrive = []
 
 ###  Program starts here
@@ -51,7 +51,7 @@ def makeDestination():
 def main():
     destDir = makeDestination()
     createLocalVersion(getSrcFiles(sourceDirectoryPath), destDir)
-    os.startfile(os.path.join(destDir, exelfilename))
+    os.startfile(os.path.join(destDir, fileNameToOpen))
     print("It has been moved and copied.")
 
 
