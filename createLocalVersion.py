@@ -5,8 +5,9 @@ import ctypes
 import itertools
 import string
 import platform
-sourceDirectoryPath = ""  # Enter directory name for source, make sure to add a backslash at the end
-exelfilename = ""
+# Enter directory name for source, make sure to add a double backslash at the end
+sourceDirectoryPath = "C:\\PathToSource"
+exelfilename = "filename.extension"
 maindrive = []
 
 ###  Program starts here
