@@ -5,8 +5,8 @@ import ctypes
 import itertools
 import string
 import platform
-sourceDirectoryPath = "C:\\Users\\Toni\\Desktop\\Coding\\XL vba prj\\"  # Enter directory name for source, make sure to add a backslash at the end
-exelfilename = "36938_DEMO_06222018.xlsx"
+sourceDirectoryPath = ""  # Enter directory name for source, make sure to add a backslash at the end
+exelfilename = ""
 maindrive = []
 
 ###  Program starts here
