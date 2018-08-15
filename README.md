@@ -7,9 +7,9 @@ It takes a source directory that contains some files and creates a new directory
 
 `sourceDirectoryPath = ""` Insert the directory path that you want to copy here.
   
- <h3>To change desitnation file name navigate to the: </h3>
+ <h3>To change desitnation file name navigate to: </h3>
 
-`makeDestination()` function, and on line 37 you'll see a variable called `maindrive = i+r":\\DataTest"` Change `"DataTest"` to desired name.
+ a variable called `maindrive = i+r":\\DataTest"` Change `"DataTest"` to desired name.
   
 <h3>To change opened file simply edit the 9th line:</h3>
 
